@@ -68,7 +68,7 @@ class Board:
       blue_sharks = pg.transform.scale(blue_sharks, (600,600))
       screen.blit(blue_sharks, (0,0))
     elif self.color == "red":#the computer background (red)
-      red_waves = pg.image.load("summer-background-red-water-waves-footage-088548081_prevstill (1).webp")
+      red_waves = pg.image.load("summer-background-red-water-waves-footage-088548081_prevstill_1.webp")
       red_waves = pg.transform.scale(red_waves, (600, 600))
       screen.blit(red_waves, (0,0))
     for x in range(self.num_grid_line):#draws the grid
